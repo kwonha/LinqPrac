@@ -30,8 +30,8 @@ namespace LinqPrac
             {
                 Console.WriteLine(item);
             }
-
-
+            output = output2.ToList<int>();
+            int[] output3 = output2.ToArray<int>();
         }
     }
 }
